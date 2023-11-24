@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider with swiper</title>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">CHILHOOD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2.html">Period</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="3.html">Nostalgia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                  Life without technology
+      </span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Welcome!!!</h1>
+                <h3>Are you ready to be nostalgic?</h3>
+                <p>Everything in the world is forgotten,<br> My heart froze in my chest: <br> the sky, only the wind,<br> Only joy lies ahead!<br> Only the sky, only the wind, <br>Only joy lies ahead. <br>Childhood will end someday <br>It's not forever <br>The
+                    boys will become adults<br> They will scatter in all directions.</p>
+                <div class="btn-box">
+                    <button id="btn" onclick="audio.play();"><a href="2.html" >Let's go</a></button>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="img/16.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "audio/click.mp3";
+    </script>
+    <span class="home-imgHover"></span>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
